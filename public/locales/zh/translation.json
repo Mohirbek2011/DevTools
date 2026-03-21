@@ -1,0 +1,44 @@
+{
+  "Settings": {
+    "back_btn": "返回",
+    "settings_title": "设置",
+    "tab1": "一般",
+    "tab2": "个性化",
+    "tab3": "编辑器",
+    "tab4": "高级",
+    "Language": "语言",
+    "Notifications": "通知",
+    "Theme": "深色主题",
+    "settings_saved": "设置已保存！",
+    "theme_updated": "主题已更改",
+    "notifications_updated": "通知设置已更新"
+  },
+  "HtmlBookModal": {
+    "html__book_title": "Html 书籍",
+    "html__history_title": "Html 历史",
+    "html__history": "HTML 由蒂姆·伯纳斯-李于1991年创建。随着时间的推移，它不断发展，并在2014年推出了支持多媒体和现代技术的 HTML5。",
+    "html__tag_title": "HTML标签",
+    "HtmlTags": "html - HTML 文档的根元素。\nhead - 包含元数据、样式和脚本。\ntitle - 设置页面标题。\nbody - 包含可见内容。\nh1-h6 - 不同级别的标题。\np - 段落。\na - 超链接。\nimg - 图像。\nul/ol - 无序/有序列表。\nli - 列表项。\ntable - 表格。\ntr/td/th - 表格行、单元格、表头。\nform - 用户输入表单。\ninput - 输入字段。\nbutton - 可点击按钮。\ndiv/span - 容器元素。\nheader/footer - 页眉/页脚。\nsection/article - 内容部分。\nnav - 导航链接。\nmain - 主要内容。\nfigure/figcaption - 图像及标题。\nvideo/audio - 多媒体元素。\nscript - JavaScript 代码。\nlink - 外部资源链接。\nmeta - 元数据定义。",
+    "html__atributs_title": "HTML 属性",
+    "htmlatribus": "id: 唯一标识符\nclass: 样式类\nstyle: 内联样式\ntitle: 悬停提示\nhidden: 隐藏元素\nhref: 链接地址\nsrc: 文件路径\nalt: 替代文本\ntype: 元素类型\nplaceholder: 占位文本\nrequired: 必填字段",
+    "close_html_atributs": "关闭 HTML 属性"
+  },
+  "CssBookModal": {
+    "css__book_title": "CSS 书籍",
+    "css__history_title": "CSS 历史",
+    "css__history": "CSS 由 Håkon Wium Lie 于 1996 年创建。它的开发目的是将内容与设计和布局分离。CSS3 于 1999 年引入，增加了动画、阴影和渐变等新功能。",
+    "css__selectors_title": "CSS 选择器",
+    "css__selectors": "通用选择器 (*)，元素选择器 (h1)，ID 选择器 (#id)，类选择器 (.class)，分组选择器 (h1, h2)，后代选择器 (div p)，子选择器 (div > p)，属性选择器 (a[href])，伪类选择器 (a:hover)，伪元素选择器 (p::first-line)",
+    "css__properties_title": "CSS 属性",
+    "css__properties": "color: 文字颜色\nfont-size: 字体大小\nfont-family: 字体\nfont-weight: 字体粗细\nbackground-color: 背景颜色\nbackground-image: 背景图片\nbackground-size: 图片大小\nbackground-position: 图片位置\nborder: 边框\nborder-radius: 边框圆角\nmargin: 外边距\npadding: 内边距\nwidth: 宽度\nheight: 高度\ndisplay: 显示方式\nposition: 定位\nz-index: 层级\nfloat: 浮动\noverflow: 溢出\nopacity: 透明度\ntransition: 过渡\nanimation: 动画",
+    "close_css_properties": "关闭 CSS 属性"
+  },
+  "JavascriptBookModal": {
+    "js__book_title": "JavaScript 书籍",
+    "js__history_title": "JavaScript 历史",
+    "js__history": "JavaScript 由 Brendan Eich 于 1995 年创建。最初它是为了在网页上添加动态功能而开发的。目前 JavaScript 广泛用于开发网页设计、动态内容、游戏、应用等。",
+    "js__syntax_title": "JavaScript 语法",
+    "js__syntax": "变量: var, let, const\n数据类型: 字符串、数字、布尔值、对象、数组\n函数: function\n条件操作符: if, else, else if\n循环: for, while, do...while\n对象: {} (花括号)\n数组: [] (方括号)\n注释: // (行注释), /* */ (块注释)",
+    "close_js_syntax": "关闭 JavaScript 语法"
+  }
+}

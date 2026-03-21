@@ -1,0 +1,44 @@
+{
+  "Settings": {
+    "back_btn": "Артқа",
+    "settings_title": "Параметрлер",
+    "tab1": "Жалпы",
+    "tab2": "Жеке баптау",
+    "tab3": "Редактор",
+    "tab4": "Кеңейтілген",
+    "Language": "Тіл",
+    "Notifications": "Хабарландырулар",
+    "Theme": "Қараңғы Тақырып",
+    "settings_saved": "Параметрлер сақталды!",
+    "theme_updated": "Тақырып өзгертілді",
+    "notifications_updated": "Хабарландыру параметрлері жаңартылды"
+  },
+  "HtmlBookModal": {
+    "html__book_title": "Html кітабы",
+    "html__history_title": "Html тарихы",
+    "html__history": "HTML 1991 жылы Тим Бернерс-Ли тарапынан жасалды. Уақыт өте келе ол дамып, 2014 жылы мультимедиа мен заманауи технологияларды қолдайтын HTML5 пайда болды.",
+    "html__tag_title": "HTML тегтері",
+    "HtmlTags": "html - HTML құжатының түпкі элементі.\nhead - Метадеректерді, стильдер мен скрипттерді қамтиды.\ntitle - Бет тақырыбын орнатады.\nbody - Көрінетін мазмұнды қамтиды.\nh1-h6 - Әртүрлі деңгейдегі тақырыптар.\np - Параграф.\na - Гиперсілтеме.\nimg - Кескін.\nul/ol - Маркерленген/нөмірленген тізім.\nli - Тізім элементі.\ntable - Кесте.\ntr/td/th - Кесте қатары, ұяшығы, тақырыбы.\nform - Пайдаланушы енгізу формасы.\ninput - Енгізу өрісі.\nbutton - Басылатын түйме.\ndiv/span - Контейнер элементтері.\nheader/footer - Беттің немесе бөлімнің жоғарғы/төменгі жағы.\nsection/article - Мазмұн бөлімдері.\nnav - Навигациялық сілтемелер.\nmain - Негізгі мазмұн.\nfigure/figcaption - Кескін мен жазба.\nvideo/audio - Мультимедиа элементтері.\nscript - JavaScript коды.\nlink - Сыртқы ресурстарға сілтеме.\nmeta - Метадеректерді анықтау.",
+    "html__atributs_title": "HTML атрибуттар",
+    "htmlatribus": "id: Бірегей идентификатор\nclass: Стильдеу класы\nstyle: Кірістірілген стильдер\ntitle: Кеңес\nhidden: Жасыру\nhref: Сілтеме мекенжайы\nsrc: Файл жолы\nalt: Балама мәтін\ntype: Элемент түрі\nplaceholder: Кеңес мәтіні\nrequired: Міндетті өріс",
+    "close_html_atributs": "HTML атрибуттарын жабу"
+  },
+  "CssBookModal": {
+    "css__book_title": "CSS кітабы",
+    "css__history_title": "CSS тарихы",
+    "css__history": "CSS 1996 жылы Håkon Wium Lie жасаған. Ол мазмұнды дизайн мен орналасудан бөлу үшін әзірленді. CSS3 1999 жылы енгізілді және анимациялар, көлеңкелер мен градиенттер сияқты жаңа мүмкіндіктерді қамтыды.",
+    "css__selectors_title": "CSS селекторлары",
+    "css__selectors": "Жалпы селектор (*), Элемент селекторы (h1), ID селекторы (#id), Класс селекторы (.class), Топтық селектор (h1, h2), Ұрпақ селекторы (div p), Тікелей ұрпақ селекторы (div > p), Атрибут селекторы (a[href]), Псевдо-класс селекторы (a:hover), Псевдо-элемент селекторы (p::first-line)",
+    "css__properties_title": "CSS қасиеттері",
+    "css__properties": "color: Мәтін түсі\nfont-size: Мәтін өлшемі\nfont-family: Қаріп\nfont-weight: Қаріп салмағы\nbackground-color: Артқы фон түсі\nbackground-image: Артқы фон суреті\nbackground-size: Сурет өлшемі\nbackground-position: Сурет орналасуы\nborder: Жиек\nborder-radius: Жиек радиусы\nmargin: Сыртқы бос орын\npadding: Ішкі бос орын\nwidth: Ені\nheight: Биіктігі\ndisplay: Көрсету режимі\nposition: Орналасуы\nz-index: Z-индекс\nfloat: Қалқымалы элемент\noverflow: Артық мазмұн\nopacity: Мөлдірлік\ntransition: Ауыспалы эффект\nanimation: Анимация",
+    "close_css_properties": "CSS қасиеттерін жабу"
+  },
+  "JavascriptBookModal": {
+    "js__book_title": "JavaScript кітабы",
+    "js__history_title": "JavaScript тарихы",
+    "js__history": "JavaScript 1995 жылы Брендан Айк тарапынан жасалды. Бастауында веб-беттің динамикалық мүмкіндіктерін қосу үшін әзірленді. Қазіргі уақытта JavaScript веб-беттің дизайны, динамикалық мазмұндары, ойындар, қолданбалар жасау саласында қолданылады.",
+    "js__syntax_title": "JavaScript синтаксисі",
+    "js__syntax": "Переменнаялар: var, let, const\nДеректер түрлері: тізбек, сан, шындық, нысан, тізбек\nФункциялар: function\nШартты операторлар: if, else, else if\nЦиклдер: for, while, do...while\nНысандар: {} (қабатша)\nТізбектер: [] (көрсеткіш)\nПікірлер: // (жол пікірі), /* */ (блок пікірі)",
+    "close_js_syntax": "JavaScript синтаксисін жабу"
+  }
+}

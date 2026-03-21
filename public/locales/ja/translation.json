@@ -1,0 +1,44 @@
+{
+  "Settings": {
+    "back_btn": "戻る",
+    "settings_title": "設定",
+    "tab1": "一般",
+    "tab2": "パーソナライズ",
+    "tab3": "エディタ",
+    "tab4": "詳細",
+    "Language": "言語",
+    "Notifications": "通知",
+    "Theme": "ダークテーマ",
+    "settings_saved": "設定が保存されました！",
+    "theme_updated": "テーマが変更されました",
+    "notifications_updated": "通知設定が更新されました"
+  },
+  "HtmlBookModal": {
+    "html__book_title": "Htmlの本",
+    "html__history_title": "Htmlの歴史",
+    "html__history": "HTMLは1991年にティム・バーナーズ＝リーによって作成されました。時代とともに進化し、2014年にはマルチメディアと最新技術をサポートするHTML5が導入されました。",
+    "html__tag_title": "HTMLタグ",
+    "HtmlTags": "html - HTML ドキュメントのルート要素。\nhead - メタデータ、スタイル、スクリプトを含む。\ntitle - ページタイトルを設定する。\nbody - 表示されるコンテンツを含む。\nh1-h6 - 異なるレベルの見出し。\np - 段落。\na - ハイパーリンク。\nimg - 画像。\nul/ol - 箇条書きリスト/番号付きリスト。\nli - リストアイテム。\ntable - テーブル。\ntr/td/th - テーブルの行、セル、ヘッダー。\nform - ユーザー入力フォーム。\ninput - 入力フィールド。\nbutton - クリック可能なボタン。\ndiv/span - コンテナ要素。\nheader/footer - ページまたはセクションのヘッダー/フッター。\nsection/article - コンテンツのセクション。\nnav - ナビゲーションリンク。\nmain - メインコンテンツ。\nfigure/figcaption - 画像とキャプション。\nvideo/audio - マルチメディア要素。\nscript - JavaScript コード。\nlink - 外部リソースのリンク。\nmeta - メタデータの定義。",
+    "html__atributs_title": "HTML 属性",
+    "htmlatribus": "id: 一意の識別子\nclass: スタイル用クラス\nstyle: インラインスタイル\ntitle: ツールチップ\nhidden: 非表示\nhref: リンクアドレス\nsrc: ファイルパス\nalt: 代替テキスト\ntype: 要素のタイプ\nplaceholder: プレースホルダー\nrequired: 必須フィールド",
+    "close_html_atributs": "HTML属性を閉じる"
+  },
+  "CssBookModal": {
+    "css__book_title": "CSSの本",
+    "css__history_title": "CSSの歴史",
+    "css__history": "CSSは1996年にHåkon Wium Lieによって作成されました。コンテンツとデザイン・レイアウトを分離するために開発されました。CSS3は1999年に導入され、アニメーション、シャドウ、グラデーションなどの新機能が追加されました。",
+    "css__selectors_title": "CSSセレクター",
+    "css__selectors": "ユニバーサルセレクター (*), 要素セレクター (h1), IDセレクター (#id), クラスセレクター (.class), グループ化セレクター (h1, h2), 子孫セレクター (div p), 子セレクター (div > p), 属性セレクター (a[href]), 擬似クラスセレクター (a:hover), 擬似要素セレクター (p::first-line)",
+    "css__properties_title": "CSSプロパティ",
+    "css__properties": "color: テキストの色\nfont-size: フォントサイズ\nfont-family: フォント\nfont-weight: フォントの太さ\nbackground-color: 背景色\nbackground-image: 背景画像\nbackground-size: 画像サイズ\nbackground-position: 画像の位置\nborder: ボーダー\nborder-radius: 角の丸み\nmargin: マージン\npadding: パディング\nwidth: 幅\nheight: 高さ\ndisplay: 表示方法\nposition: 配置方法\nz-index: Zインデックス\nfloat: フロート\noverflow: オーバーフロー\nopacity: 透明度\ntransition: トランジション\nanimation: アニメーション",
+    "close_css_properties": "CSSプロパティを閉じる"
+  },
+  "JavascriptBookModal": {
+    "js__book_title": "JavaScriptの本",
+    "js__history_title": "JavaScriptの歴史",
+    "js__history": "JavaScriptは1995年にブレンダン・アイクによって作成されました。当初はWebページの動的な機能を追加するために開発されました。JavaScriptは現在、Webページのデザイン、動的なコンテンツ、ゲーム、アプリケーションなどの開発に広く使用されています。",
+    "js__syntax_title": "JavaScript構文",
+    "js__syntax": "変数: var, let, const\nデータ型: 文字列、数値、真偽値、オブジェクト、配列\n関数: function\n条件分岐: if, else, else if\nループ: for, while, do...while\nオブジェクト: {} (中括弧)\n配列: [] (角括弧)\nコメント: // (行コメント), /* */ (ブロックコメント)",
+    "close_js_syntax": "JavaScript構文を閉じる"
+  }
+}

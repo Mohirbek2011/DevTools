@@ -1,0 +1,85 @@
+.code-editor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    @media (max-width: 1026px) {
+        /* flex-direction: column; */
+        display: none;
+    }
+}
+
+/* Контейнер для редактора */
+.editor-container {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+    @media (max-width: 1026px) {
+        /* flex-direction: column; */
+        display: none;
+    }
+}
+
+/* Общие стили для текстовых полей */
+.editor-textarea {
+    width: 30%;
+    height: 300px;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    resize: vertical;
+    font-family: monospace;
+}
+
+/* Светлая тема */
+body[data-theme="light"] .editor-textarea {
+    background: #ffffff;
+    color: #000000;
+    border: 1px solid #ccc;
+}
+
+/* Тёмная тема */
+body[data-theme="dark"] .editor-textarea {
+    background: #1e1e1e;
+    color: #ffffff;
+    border: 1px solid #555;
+}
+
+/* Стили для iframe с результатом */
+.output-frame {
+    width: 90%;
+    height: 300px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+}
+
+/* Светлая тема для iframe */
+body[data-theme="light"] .output-frame {
+    background: #ffffff;
+    border: 1px solid #ccc;
+}
+
+/* Тёмная тема для iframe */
+body[data-theme="dark"] .output-frame {
+    background: #1e1e1e;
+    border: 1px solid #555;
+}
+
+/* Анимация фокуса */
+.editor-textarea:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+/* Анимация фокуса в тёмной теме */
+body[data-theme="dark"] .editor-textarea:focus {
+    border-color: #00bcd4;
+    box-shadow: 0 0 5px rgba(0, 188, 212, 0.5);
+}

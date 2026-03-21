@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+ul,ol,p,a {
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+  width: 100%;
+}
+
+:root {
+  --bg-color: #fff;
+  --text-color: #000;
+  --header-bg: #f0f0f0; 
+}
+
+[data-theme="dark"] {
+  --bg-color: #001f3f;
+  --text-color: #fff;
+  --header-bg: #001f3f ;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+    /* min-height: 1vh; Длина страницы в 2 раза больше экрана */
+    padding-bottom: 200px; /* Добавит больше пространства внизу */
+}
+
+/* Стили для header */
+.header {
+  background-color: var(--header-bg);
+  /* background-color: #001f3f;  */
+  padding: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.button {
+  border: none;
+  outline: none;
+}
+/* Скрываем скроллбар, но оставляем возможность прокрутки */
+::-webkit-scrollbar {
+  display: none; /* Для Chrome, Safari */
+}
+
+* {
+  scrollbar-width: none; /* Для Firefox */
+  -ms-overflow-style: none; /* Для IE и Edge */
+}

@@ -1,0 +1,46 @@
+{
+  "Settings": {
+    "back_btn": "back",
+    "settings_title": "Settings",
+    "tab1": "General",
+    "tab2": "Personalization",
+    "tab3": "Editor",
+    "tab4": "Advanced",
+    "Language": "Language",
+    "Notifications": "Notifications",
+    "Theme": "Dark theme",
+    "settings_saved": "Settings saved!",
+    "theme_updated": "Theme changed",
+    "notifications_updated": "Notification settings updated"
+  },
+  "HtmlBookModal": {
+    "html__book_title": "Html Book",
+    "html__history_title": "Html history",
+    "html__history": "HTML was created in 1991 by Tim Berners-Lee. Over time, it evolved, and in 2014, HTML5 was introduced with support for multimedia and modern technologies.",
+    "html__tag_title": "html tags",
+    "HtmlTags": "html - Root of an HTML document.\nhead - Contains metadata, styles, and scripts.\ntitle - Sets the page title.\nbody - Contains the visible content.\nh1-h6 - Headings of different levels.\np - Paragraph.\na - Hyperlink.\nimg - Image.\nul/ol - Unordered/Ordered list.\nli - List item.\ntable - Table.\ntr/td/th - Table row, cell, header.\nform - User input form.\ninput - Input field.\nbutton - Clickable button.\ndiv/span - Container elements.\nheader/footer - Page or section header/footer.\nsection/article - Content sections.\nnav - Navigation links.\nmain - Main content.\nfigure/figcaption - Image and caption.\nvideo/audio - Multimedia elements.\nscript - JavaScript code.\nlink - External resource linking.\nmeta - Metadata definition.",
+    "html__atributs_title": "html atributs",
+    "htmlatribus": "id: Unique identifier\nclass: Styling class\nstyle: Inline styles\ntitle: Tooltip\nhidden: Hides element\nhref: Link address\nsrc: File path\nalt: Alternative text\ntype: Element type\nplaceholder: Placeholder text\nrequired: Required field",
+    "close_html_atributs": "Close HTML attributes"
+  },
+
+  "CssBookModal": {
+    "css__book_title": "Css Book",
+    "css__history_title": "Css history",
+    "css__history": "CSS was created in 1996 by Håkon Wium Lie. It was developed to separate content from design and layout. CSS3 was introduced in 1999 with new features like animations, shadows, and gradients.",
+    "css__selectors_title": "css selectors",
+    "css__selectors": "Universal selector (*), Element selector (h1), ID selector (#id), Class selector (.class), Grouping selector (h1, h2), Descendant selector (div p), Child selector (div > p), Attribute selector (a[href]), Pseudo-class selector (a:hover), Pseudo-element selector (p::first-line)",
+    "css__properties_title": "css properties",
+    "css__properties": "color: Text color\nfont-size: Text size\nfont-family: Text font\nfont-weight: Text weight\nbackground-color: Background color\nbackground-image: Background image\nbackground-size: Image size\nbackground-position: Image position\nborder: Border\nborder-radius: Border radius\nmargin: Margin\npadding: Padding\nwidth: Width\nheight: Height\ndisplay: Display\nposition: Position\nz-index: Z-index\nfloat: Float\noverflow: Overflow\nopacity: Opacity\ntransition: Transition\nanimation: Animation",
+    "close_css_properties": "Close CSS properties"
+  },
+
+  "JavascriptBookModal": {
+    "js__book_title": "JavaScript Book",
+    "js__history_title": "JavaScript History",
+    "js__history": "JavaScript was created in 1995 by Brendan Eich. Initially, it was developed to add dynamic features to web pages. Today, JavaScript is widely used for web design, dynamic content, games, applications, etc.",
+    "js__syntax_title": "JavaScript Syntax",
+    "js__syntax": "Variables: var, let, const\nData types: string, number, boolean, object, array\nFunctions: function\nConditional statements: if, else, else if\nLoops: for, while, do...while\nObjects: {} (curly braces)\nArrays: [] (square brackets)\nComments: // (single-line comment), /* */ (multi-line comment)",
+    "close_js_syntax": "Close JavaScript Syntax"
+  }
+}

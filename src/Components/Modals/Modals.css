@@ -1,0 +1,40 @@
+.Modals{
+    padding: 20px;
+}
+
+.Modals h1{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+
+.Modals button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.Modals button:hover{
+    background-color: #0056b3;
+}
+
+.Modals button:active{
+    background-color: #004080;
+}
+
+.Modals button:focus{
+    outline: none;
+}
+
+.Modals__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    @media (max-width: 1026px) {
+        flex-direction: column;
+        
+    }
+}

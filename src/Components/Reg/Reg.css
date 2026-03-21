@@ -1,0 +1,141 @@
+@font-face {
+	font-family: 'Revalia';
+	src: url('../../assets/fonts/Revalia-Regular.ttf') format('truetype');
+}
+
+.header {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    font-family: 'Revalia'  , sans-serif;
+    font-size: 27px;
+    color: #34547A;
+}
+.header__reg {
+	display: flex;
+	justify-content: end;
+	align-items: center;
+	/* gap: 1px; */
+}
+.cl-profileSectionPrimaryButton {
+	background-color: transparent !important;
+	color: white;
+	border: none;
+	border-radius: 4px;
+	padding: 5px 20px;
+	cursor: pointer;
+	font-size: 16px;
+}
+
+.clerk-button {
+	font-size: 20px;
+	width: 50px;
+	height: 50px;
+	font-weight: bold;
+	border-radius: 8px;
+	border: none !important;
+	cursor: pointer;
+	background-color: transparent !important;
+	color: white;
+	transition: background-color 0.3s ease;
+}
+
+.clerk-button:hover {
+	background-color: #0056b3;
+}
+
+.user-button {
+	font-size: 20px;
+	width: 50px;
+	height: 50px;
+	font-weight: bold;
+	border-radius: 4px;
+	background-color: #28a745;
+	color: white;
+}
+
+.user-button:hover {
+	background-color: #218838;
+}
+
+.header__settings-btn {
+	border: none;
+	outline: none;
+	background-color: transparent !important;
+	padding: 5px 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.cl-userButtonTrigger {
+	background-color: transparent !important;
+	border: none !important;
+}
+.cl-userButtonPopoverActionButton{
+	background-color: transparent !important;
+	color: #000;
+
+}
+.cl-menuItem{
+	background-color: transparent !important;
+	color: #000;
+}
+.cl-profileSectionPrimaryButton {
+	background-color: transparent !important;
+	color: #000;
+	border: none;
+	border-radius: 4px;
+	padding: 5px 20px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.cl-navbarButton {
+	background-color: transparent !important;
+	color: #000;
+	border: none;
+	border-radius: 4px;
+	padding: 5px 20px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.cl-modalCloseButton {
+	background-color: transparent !important;
+	color: #000;
+	border: none;
+	border-radius: 4px;
+	padding: 5px 20px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.cl-menuButton {
+	background-color: transparent !important;
+	color: #000;
+	border: none;
+	border-radius: 4px;
+	padding: 5px 20px;
+	cursor: pointer;
+	font-size: 16px;
+}
+.header__settings-icon {
+	width: 20px;
+	height: 20px;
+}
+.settings-icon {
+	display: inline-block;
+	font-size: 32px;
+	cursor: pointer;
+	transition: transform 0.6s ease-in-out;
+}
+
+.settings-icon:hover {
+	transform: rotate(180deg);
+}

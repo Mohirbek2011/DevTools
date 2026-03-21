@@ -1,0 +1,44 @@
+{
+  "Settings": {
+    "back_btn": "Orqaga",
+    "settings_title": "Sozlamalar",
+    "tab1": "Umumiy",
+    "tab2": "Shaxsiylashtirish",
+    "tab3": "Tahrirlovchi",
+    "tab4": "Kengaytirilgan",
+    "Language": "Til",
+    "Notifications": "Bildirishnomalar",
+    "Theme": "Qorong'i mavzu",
+    "settings_saved": "Sozlamalar saqlandi!",
+    "theme_updated": "Mavzu o'zgartirildi",
+    "notifications_updated": "Bildirishnoma sozlamalari yangilandi"
+  },
+  "HtmlBookModal": {
+    "html__book_title": "Html kitobi",
+    "html__history_title": "Html tarixi",
+    "html__history": "HTML 1991-yilda Tim Berners-Li tomonidan yaratilgan. Vaqt o'tishi bilan rivojlandi va 2014-yilda HTML5 multimedia va zamonaviy texnologiyalarni qo‘llab-quvvatlash bilan taqdim etildi.",
+    "html__tag_title": "HTML teglar",
+    "HtmlTags": "html - HTML hujjatining ildiz elementi.\nhead - Metadata, uslublar va skriptlarni o'z ichiga oladi.\ntitle - Sahifa sarlavhasini belgilaydi.\nbody - Ko'rinadigan tarkibni o'z ichiga oladi.\nh1-h6 - Turli darajadagi sarlavhalar.\np - Paragraf.\na - Giperhavola.\nimg - Rasm.\nul/ol - Belgilangan/raqamlangan roʻyxat.\nli - Roʻyxat elementi.\ntable - Jadval.\ntr/td/th - Jadval qatori, katakcha, sarlavha.\nform - Foydalanuvchi kiritish shakli.\ninput - Kiritish maydoni.\nbutton - Bosish mumkin bo'lgan tugma.\ndiv/span - Qutilar (konteynerlar).\nheader/footer - Sahifa yoki bo'lim sarlavhasi/poytuguni.\nsection/article - Tarkib bo'limlari.\nnav - Navigatsiya havolalari.\nmain - Asosiy tarkib.\nfigure/figcaption - Rasm va izoh.\nvideo/audio - Multimedia elementlari.\nscript - JavaScript kodi.\nlink - Tashqi resurslarni ulash.\nmeta - Metadata ta'rifi.",
+    "html__atributs_title": "HTML atributlar",
+    "htmlatribus": "id: Noyob identifikator\nclass: Uslublash uchun sinf\nstyle: Ichki uslublar\ntitle: Ko'rsatiladigan maslahat\nhidden: Elementni yashiradi\nhref: Havola manzili\nsrc: Fayl yo'li\nalt: Muqobil matn\ntype: Element turi\nplaceholder: Matn-yonalish\nrequired: Majburiy maydon",
+    "close_html_atributs": "HTML atributlarini yopish"
+  },
+  "CssBookModal": {
+    "css__book_title": "CSS kitobi",
+    "css__history_title": "CSS tarixi",
+    "css__history": "CSS 1996-yilda Håkon Wium Lie tomonidan yaratilgan. U kontentni dizayn va joylashuvdan ajratish uchun ishlab chiqilgan. CSS3 1999-yilda animatsiyalar, soyalar va gradientlar kabi yangi xususiyatlar bilan joriy etilgan.",
+    "css__selectors_title": "CSS selektorlar",
+    "css__selectors": "Universal selektor (*), Element selektori (h1), ID selektori (#id), Klass selektori (.class), Guruhlash selektori (h1, h2), Nasl selektori (div p), Farzand selektori (div > p), Atribut selektori (a[href]), Psevdo-klass selektori (a:hover), Psevdo-element selektori (p::first-line)",
+    "css__properties_title": "CSS xususiyatlari",
+    "css__properties": "color: Matn rangi\nfont-size: Matn o‘lchami\nfont-family: Shrift\nfont-weight: Matn qalinligi\nbackground-color: Fon rangi\nbackground-image: Fon rasmi\nbackground-size: Rasm o‘lchami\nbackground-position: Rasm joylashuvi\nborder: Chegara\nborder-radius: Chegara radiusi\nmargin: Tashqi bo‘sh joy\npadding: Ichki bo‘sh joy\nwidth: Kenglik\nheight: Balandlik\ndisplay: Ko‘rinish\nposition: Joylashuv\nz-index: Z-indeks\nfloat: Suzish\noverflow: Oshiqcha kontent\nopacity: Shaffoflik\ntransition: O‘tish\nanimation: Animatsiya",
+    "close_css_properties": "CSS xususiyatlarini yopish"
+  },
+  "JavascriptBookModal": {
+    "js__book_title": "JavaScript kitobi",
+    "js__history_title": "JavaScript tarixi",
+    "js__history": "JavaScript 1995-yilda Brendan Eich tomonidan yaratilgan. Boshlang‘ichida veb-sahifalarga dinamik imkoniyatlar qo‘shish uchun ishlab chiqilgan. Bugungi kunda JavaScript veb-sahifalar dizayni, dinamik tarkiblar, o‘yinlar, dasturlar va boshqa turlarda keng qo‘llaniladi.",
+    "js__syntax_title": "JavaScript sintaksi",
+    "js__syntax": "O‘zgaruvchilar: var, let, const\nMa’lumot turlari: matn, son, to‘g‘ri, obyekt, massiv\nFunksiyalar: function\nShartlar operatorlari: if, else, else if\nTsikllar: for, while, do...while\nObyektlar: {} (kruchki)\nMassivlar: [] (kvadrat qavs)\nIzohlar: // (qator izohi), /* */ (blok izohi)",
+    "close_js_syntax": "JavaScript sintaxsini yopish"
+  }
+}
